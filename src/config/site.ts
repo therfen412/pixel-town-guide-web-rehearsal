@@ -1,17 +1,17 @@
 export const siteConfig = {
   resident: {
-    name: "小镇居民",
-    role: "独立创作者",
+    name: "星野",
+    role: "像素园艺师",
     plot: {
       town: "像素小镇",
-      number: "07",
-      coordinates: "X07, Y16",
-      type: "居民地块",
-      phase: "建造中",
+      number: "12",
+      coordinates: "X12, Y08",
+      type: "花园地块",
+      phase: "开放参观",
     },
-    status: "正在建造一间属于自己的小屋",
+    status: "正在种植会发光的像素花",
     introduction:
-      "这里记录我正在做的项目、最近学到的事情，以及想与邻居分享的生活碎片。",
+      "这是用于建站指南技术预演的虚构居民资料，只展示公开的示例内容。",
   },
   navigation: [
     { label: "首页", href: "/" },
@@ -23,8 +23,8 @@ export const siteConfig = {
     { label: "返回像素小镇", href: "https://example.com/" },
   ],
   seo: {
-    title: "小镇居民的个人网站",
-    description: "一座由 Markdown 和 Astro 搭建的像素小屋。",
+    title: "星野的像素花园",
+    description: "建站指南网页路线的公开技术预演网站。",
   },
 } as const;
 
